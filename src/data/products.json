@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Singapore F1 Grand Prix",
+    "description": "Experience the thrill of Formula 1 racing under the lights at Marina Bay Circuit. Premium weekend package with race tickets, luxury accommodation, and exclusive access.",
+    "basePrice": 45000,
+    "category": "Sports Events",
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+    "eventDate": "2024-09-15",
+    "location": "Marina Bay Circuit, Singapore",
+    "duration": "3 days / 2 nights",
+    "components": {
+      "matchTickets": {
+        "name": "F1 Race Tickets",
+        "price": 25000,
+        "mandatory": true,
+        "description": "Premium grandstand tickets for all 3 days including practice, qualifying, and race day"
+      },
+      "flights": {
+        "name": "Return Flights",
+        "price": 18000,
+        "mandatory": false,
+        "description": "Economy class return flights from major Indian cities to Singapore"
+      },
+      "hotel": {
+        "name": "Luxury Hotel Stay",
+        "price": 12000,
+        "mandatory": false,
+        "description": "2 nights at 5-star hotel near Marina Bay with breakfast included"
+      }
+    },
+    "emiOptions": {
+      "available": true,
+      "tenure": [6, 12],
+      "interestRate": 0,
+      "processingFee": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "Liverpool vs Manchester United",
+    "description": "Witness the biggest rivalry in English football at Anfield Stadium. Experience the electric atmosphere of this historic Premier League clash.",
+    "basePrice": 35000,
+    "category": "Sports Events",
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1431324155629-1a6d1c5c6b2b?w=400&h=300&fit=crop",
+    "eventDate": "2024-10-20",
+    "location": "Anfield Stadium, Liverpool",
+    "duration": "4 days / 3 nights",
+    "components": {
+      "matchTickets": {
+        "name": "Match Tickets",
+        "price": 20000,
+        "mandatory": true,
+        "description": "Premium seats at Anfield Stadium for the Liverpool vs Manchester United match"
+      },
+      "flights": {
+        "name": "Return Flights",
+        "price": 25000,
+        "mandatory": false,
+        "description": "Economy class return flights from major Indian cities to Manchester/Liverpool"
+      },
+      "hotel": {
+        "name": "Hotel Accommodation",
+        "price": 15000,
+        "mandatory": false,
+        "description": "3 nights at 4-star hotel in Liverpool city center with breakfast"
+      }
+    },
+    "emiOptions": {
+      "available": true,
+      "tenure": [6, 12],
+      "interestRate": 0,
+      "processingFee": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "French Open Tennis Championship",
+    "description": "Experience the clay court magic at Roland Garros. Watch the world's best tennis players compete in the prestigious French Open tournament.",
+    "basePrice": 55000,
+    "category": "Sports Events",
+    "inStock": true,
+    "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=300&fit=crop",
+    "eventDate": "2024-05-26",
+    "location": "Roland Garros, Paris",
+    "duration": "5 days / 4 nights",
+    "components": {
+      "matchTickets": {
+        "name": "Tennis Tournament Tickets",
+        "price": 30000,
+        "mandatory": true,
+        "description": "Premium tickets for multiple matches including quarterfinals, semifinals, and finals"
+      },
+      "flights": {
+        "name": "Return Flights",
+        "price": 22000,
+        "mandatory": false,
+        "description": "Economy class return flights from major Indian cities to Paris"
+      },
+      "hotel": {
+        "name": "Paris Hotel Stay",
+        "price": 18000,
+        "mandatory": false,
+        "description": "4 nights at 4-star hotel in central Paris with breakfast and city tour"
+      }
+    },
+    "emiOptions": {
+      "available": true,
+      "tenure": [6, 12],
+      "interestRate": 0,
+      "processingFee": 0
+    }
+  }
+]
